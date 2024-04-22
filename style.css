@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-image: url(image/istockphoto-665736838-170667a.webp);
+background-size: cover;
+background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+    font-size: 50px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form1{
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    width: 40%;
+}
+input{
+    padding: 10px;
+    margin: 3px;
+    font-size: 19px;
+}
+
+select{
+    width: 64%;
+    height: 40%;
+    font-size: 20px;
+    padding: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
